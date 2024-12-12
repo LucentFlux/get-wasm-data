@@ -1,0 +1,9 @@
+[package]
+name = "get-wasm-data"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walrus = { version = "0.23.2", features = ["parallel"] }
+
+clap = "2.33.0"
